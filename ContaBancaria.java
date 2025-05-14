@@ -11,7 +11,7 @@ public class ContaBancaria {
         this.saldo = saldoInicial;
     }
 
-    // Getters e Setters
+    
     public int getNumeroConta() {
         return numeroConta;
     }
@@ -32,7 +32,7 @@ public class ContaBancaria {
         return saldo;
     }
 
-    // Métodos de operação
+    
     public void depositar(double valor) {
         if (valor > 0) {
             saldo += valor;
